@@ -1,12 +1,84 @@
+# Generated folders
+bin/
+gen/
+out/
+build/
+lib/
+logs/
+target/
+
+
+# Eclipse project files
+.classpath
+.project
+# Eclipse generated folders
+.metadata/
+.settings/
+RemoteSystemsTempFiles/
+Servers/
+# IDEA project files
+.idea/
+*.iml
+# IDEA Old-style project files
+*.ipr
+*.iws
+# Android Studio
+local.properties
+app/
+
+
+# Android built application files
+*.apk
+*.ap_
+# Android files for the dex VM
+*.dex
+
+
+# Java class files
 *.class
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# Windows thumbnail db
+.DS_Store
+# Image thumbnails
+Thumbs.db
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+
+# Gradle cache
+.gradle
+
+
+# keystore
+*.jks
+
+
+
+
+
+## Directory-based project format:
+#.idea/
+
+# if you remove the above rule, at least ignore the following:
+# User-specific stuff:
+# .idea/workspace.xml
+# .idea/tasks.xml
+# .idea/dictionaries
+# Sensitive or high-churn files:
+# .idea/dataSources.ids
+# .idea/dataSources.xml
+# .idea/sqlDataSources.xml
+# .idea/dynamic.xml
+# .idea/uiDesigner.xml
+# Gradle:
+# .idea/gradle.xml
+# .idea/libraries
+# Mongo Explorer plugin:
+# .idea/mongoSettings.xml
+
+## Plugin-specific files:
+# mpeltonen/sbt-idea plugin
+#.idea_modules/
+# JIRA plugin
+#atlassian-ide-plugin.xml
+# Crashlytics plugin (for Android Studio and IntelliJ)
+#com_crashlytics_export_strings.xml
