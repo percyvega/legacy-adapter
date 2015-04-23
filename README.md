@@ -1,0 +1,2 @@
+# legacy-adapter
+The purpose of the project is to simulate the successful transmission of customer information to a mainframe for reporting purposes. The design constraint is to use the classes that the new systems use, namely Company and Website, while at the same time having into consideration that the AS400 uses the archaic LegacyCustomerUtil, which only accepts as parameter a LegacyCustomer. To achieve the goal, I have implemented the Adapter design pattern, which is a Structural GoF pattern to "convert the interface of a class into another interface clients expect".
