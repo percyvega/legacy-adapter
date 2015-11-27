@@ -50,6 +50,7 @@ public abstract class LegacyCustomerUtil {
      */
     public static void sendLegacyCustomerToAS400forMonthlyReport(LegacyCustomer legacyCustomer) {
         // TODO
+        
         // 1) Open connection to AS400
         // 2) Send LegacyCustomer as a serialized object
         // 3) Close connection to AS400
